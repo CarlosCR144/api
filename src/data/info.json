@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "nombre": "patos nadando",
+        "categoria": "naturaleza"
+    },
+    {
+        "id": 2,
+        "nombre": "destino restringido",
+        "categoria": "paisaje"
+    }
+]
