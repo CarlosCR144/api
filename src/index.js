@@ -1,40 +1,25 @@
+import images from './data/info.json' assert { type: 'json' };
 import express from 'express';
+import cors from 'cors';
+
 
 const app = express();
+app.use(cors());
 let port = 3000
-
-// Datos
-const infoImages = [
-    {
-        "id": 1,
-        "nombre": "patos nadando",
-        "categoria": "naturaleza"
-    },
-    {
-        "id": 2,
-        "nombre": "camino incierto",
-        "categoria": "paisaje"
-    }
-]
-
 
 // routes
 app.get('/images', (req, res) => {
-    res.json(infoImages)
-
-    console.log(infoImages)
-})
+    res.json(images)
+});
 
 app.get('/images/:id', (req, res) => {
-    console.log(req.params.id)
+    const foundInfoImages = images.find(infoImages => infoImages.id === parseInt(req.params.id));
 
-    const foundInfoImages = infoImages.find(infoImages => infoImages.id === parseInt(req.params.id)
-    )
+    if (!foundInfoImages) return res.status(404).send('Not Found');
 
-    if (!foundInfoImages) return res.status(404).send('Not Found')
+    res.json(foundInfoImages);
+});
 
-    res.json(foundInfoImages)
-})
 
 app.listen(port)
 console.log(`Server listening on ${port}`)
