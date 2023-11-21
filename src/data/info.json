@@ -3,63 +3,63 @@
         "id": 1,
         "nombre": "Camino...",
         "categoria": "Paisaje",
-        "imagen": "./data/img/1.webp"
+        "imagen": "../data/img/1.webp"
     },
     {
         "id": 2,
         "nombre": "Recuerdo de léon",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/2.webp"
+        "imagen": "../data/img/2.webp"
     },
     {
         "id": 3,
         "nombre": "Memorias florales",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/3.webp"
+        "imagen": "../data/img/3.webp"
     },{
         "id": 4,
         "nombre": "Retrato primaveral",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/4.webp"
+        "imagen": "../data/img/4.webp"
     },{
         "id": 5,
         "nombre": "Prisa",
         "categoria": "Vehículos",
-        "imagen": "./data/img/5.webp"
+        "imagen": "../data/img/5.webp"
     },{
         "id": 6,
         "nombre": "Magna presencia",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/6.webp"
+        "imagen": "../data/img/6.webp"
     },{
         "id": 7,
         "nombre": "Resplandor de un alma",
         "categoria": "Paisaje",
-        "imagen": "./data/img/7.webp"
+        "imagen": "../data/img/7.webp"
     },{
         "id": 8,
         "nombre": "Monster truck",
         "categoria": "Vehículos",
-        "imagen": "./data/img/8.webp"
+        "imagen": "../data/img/8.webp"
     },{
         "id": 9,
         "nombre": "Retrato equino",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/9.webp"
+        "imagen": "../data/img/9.webp"
     },{
         "id": 10,
         "nombre": "Líneas guías",
         "categoria": "Arquitectura",
-        "imagen": "./data/img/10.webp"
+        "imagen": "../data/img/10.webp"
     },{
         "id": 11,
         "nombre": "Merienda",
         "categoria": "Naturaleza",
-        "imagen": "./data/img/11.webp"
+        "imagen": "../data/img/11.webp"
     },{
         "id": 12,
         "nombre": "Discurso final",
         "categoria": "Retrato",
-        "imagen": "./data/img/12.webp"
+        "imagen": "../data/img/12.webp"
     }
 ]
